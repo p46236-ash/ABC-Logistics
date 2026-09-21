@@ -48,11 +48,3 @@ if st.button('Predict Delivery Delay'):
     
     st.write(f"Probability of No Delay: {prediction_proba[0][0]:.2f}")
     st.write(f"Probability of Delay: {prediction_proba[0][1]:.2f}")
-
-st.markdown("""
-## How to run this app:
-1. Save this code as `streamlit_app.py` (which I've done for you).
-2. Open your terminal or command prompt.
-3. Navigate to the directory where `streamlit_app.py` is saved.
-4. Run the command: `streamlit run streamlit_app.py`
-""")
